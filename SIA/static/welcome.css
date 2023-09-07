@@ -1,0 +1,56 @@
+body {
+    background-color: #040D12;
+    color: #93B1A6;
+    padding: 80px 20px 0px 20px;
+
+}
+
+/* CSS for the header container */
+#header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #272829;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+}
+
+/* CSS for the name */
+#name {
+    display: flex;
+    align-items: center;
+}
+
+#name a {
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+}
+
+#name a:hover {
+    color: rgb(89, 95, 95);
+}
+
+/* CSS for the logo image */
+#logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* CSS for the fixed header */
+#top-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+    background-color: #333;
+    transition: background-color 0.3s; 
+}
+
+h1 {
+    text-align: center;
+    margin: 10%;
+}

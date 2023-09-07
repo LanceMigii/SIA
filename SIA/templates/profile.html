@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Profile</title>
+    <link rel="stylesheet" type="text/css" href="/static/profile.css">
+</head>
+<body>
+    <header id="top-header">
+        <div id="header-content">
+            <div id="back">
+                <a href="/go_back"><h5>Go Back</h5></a>
+            </div>
+            <div id="logout">
+                <a href="/logout"><h3>Log out</h3></a>
+            </div>
+        </div>
+    </header>
+    <div id="user_data">
+        <div class="column">
+            <p><strong>Name:</strong></p>
+            <p><strong>Password:</strong></p>
+            <p><strong>Age:</strong></p>
+            <p><strong>Birthday:</strong></p>
+            <p><strong>Address:</strong></p>
+            <p><strong>Working:</strong></p>
+        </div>
+        <div class="column">
+            <p>{{ user_data[0] }}</p>
+            <p>{{ user_data[1] }}</p>
+            <p>{{ user_data[2] }}</p>
+            <p>{{ user_data[3] }}</p>
+            <p>{{ user_data[4] }}</p>
+            <p>{% if user_data[5] == 1 %}Yes{% else %}No{% endif %}</p>
+        </div>
+    </div>
+
+    <div id="options">
+        <div class="option_profile">
+            <h4><a href="/edit_profile">Edit Profile</a></h4>
+        </div>
+        <div class="option_profile">
+            <h4><a href="/confirmation">Delete Profile</a></h4>
+        </div>
+    </div>
+
+</body>
+</html>

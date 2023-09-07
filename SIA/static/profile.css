@@ -1,0 +1,89 @@
+body {
+    background-color: #040D12;
+    color: #93B1A6;
+    padding: 80px 20px 0px 20px;
+}
+
+/* CSS for the header container */
+#header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #272829;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+}
+
+/* CSS for the name */
+#back {
+    display: flex;
+    align-items: center;
+}
+
+#back a {
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+}
+
+#back a:hover {
+    color: rgb(89, 95, 95);
+}
+
+#logout a {
+    text-decoration: none;
+    color: white;
+}
+
+#logout a:hover {
+    color: rgb(97, 97, 97);
+}
+
+/* CSS for the fixed header */
+#top-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+    background-color: #333;
+    transition: background-color 0.3s; 
+}
+
+#user_data {
+    background-color: #183D3D;
+    color: rgb(255, 255, 255);
+    max-width: 500px;
+    margin: 6% auto 0% auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.column{
+    flex: 1;
+    padding: 10px;
+    text-align: left;
+}
+
+#options {
+    max-width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.option_profile {
+    margin-right: 10px;
+}
+
+.option_profile a {
+    text-decoration: none;
+    color: white;
+}
+
+.option_profile a:hover {
+    color: rgb(99, 99, 99);
+}

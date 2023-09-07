@@ -1,0 +1,63 @@
+body {
+    background-color: #040D12;
+    color: #93B1A6;
+    padding: 80px 20px 0px 20px;
+    margin: 0;
+}
+
+/* CSS for the header container */
+#header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #272829;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+}
+
+/* CSS for the logo image */
+#logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* CSS for the fixed header */
+#top-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+    background-color: #333;
+    transition: background-color 0.3s; 
+}
+
+/* CSS for the delete profile container */
+#delete-profile {
+    max-width: 400px;
+    margin: 6% auto;
+    padding: 20px;
+    background-color: #183D3D;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#delete-profile h3 {
+    color: #ffffff;
+}
+
+/* CSS for the button container */
+#button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end; /* Align buttons at the bottom of the container */
+    margin-top: 20px; /* Add some space between text and buttons */
+}
+
+input[type="submit"] {
+    padding: 7px;
+    margin: 5px;
+}

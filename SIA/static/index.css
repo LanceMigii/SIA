@@ -1,0 +1,80 @@
+/*Color pallet
+#040D12
+#183D3D
+#5C8374
+#93B1A6
+*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #040D12;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #183D3D;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #5C8374;
+    border: 1px solid white;
+    border-radius: 5px;
+    color:azure;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#flash-messages {
+    color:red;
+    text-align: center;
+    padding-left: -30px;
+}
+
+#flash-messages ul {
+    list-style-type: none;
+}
+
+#register {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#register a {
+    text-decoration: none;
+    color:aquamarine;
+}
+
+#register a:hover {
+    color:rgb(62, 126, 105);
+}

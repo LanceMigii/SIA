@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delete Profile</title>
+    <link rel="stylesheet" type="text/css" href="/static/confirmation.css">
+</head>
+<body>
+    <header id="top-header">
+        <div id="header-content">
+            <div id="logo">
+                <img src="/static/images/temp logo.jpg" alt="logo.jpg">
+            </div>
+        </div>
+    </header>
+    <div id="delete-profile">
+        <h3>Are you sure you want to delete your profile?</h3>
+        <div id="button-container">
+            <form method="POST" action="/delete_profile">
+                <input type="hidden" name="action" value="Delete">
+                <input type="submit" value="Delete">
+            </form>
+            <form method="POST" action="/delete_profile">
+                <input type="hidden" name="action" value="Cancel">
+                <input type="submit" value="Cancel">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
